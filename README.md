@@ -22,7 +22,7 @@ In this variant the API exposed as static methods for sake of simplicity:
 and contains a column of (at least) 2 nested composables:
    - [TokenView](https://github.com/s4ysolutions/gem-demo/blob/main/app/src/main/java/solutions/s4y/jeleapps1/ui/composables/gcm/TokenView.kt)
    - [MessagesView](https://github.com/s4ysolutions/gem-demo/blob/main/app/src/main/java/solutions/s4y/jeleapps1/ui/composables/gcm/MessagesView.kt)
-   - [SendView]https://github.com/s4ysolutions/gem-demo/blob/main/app/src/main/java/solutions/s4y/jeleapps1/ui/composables/gcm/SendView.kt) - commented out in the moment of writing this doc - development helper to bypass GC backend and send fake messages
+   - [SendView](https://github.com/s4ysolutions/gem-demo/blob/main/app/src/main/java/solutions/s4y/jeleapps1/ui/composables/gcm/SendView.kt) - commented out in the moment of writing this doc - development helper to bypass GC backend and send fake messages
   
 - [PushNotificationPermitted](https://github.com/s4ysolutions/gem-demo/blob/main/app/src/main/java/solutions/s4y/jeleapps1/ui/composables/gcm/PushNotificationPermitted.kt) - a [wrapper](https://github.com/s4ysolutions/gem-demo/blob/e8df926c83e89c1580ad83efdfeadc5dfcf5c9a4/app/src/main/java/solutions/s4y/jeleapps1/MainActivity.kt#L28C1-L37C22) component
 ensures the permission are implicitly requested using [Jetpack Compose Permissions](https://google.github.io/accompanist/permissions/) API
